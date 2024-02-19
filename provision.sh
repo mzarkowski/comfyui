@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pip install b2
 B2_BUCKET_NAME=runpod-storage-xyz
 
 b2 sync --skipNewer "b2://${B2_BUCKET_NAME}/final2/workspace/ComfyUI/custom_nodes" "/workspace/ComfyUI/custom_nodes"
